@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-items: center;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: #22D4FD;
+    border-radius: 216px;
+    width: 90%;
+    height: 100%;
+}
+
+.botoes {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.itens-esquerda {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.itens-direita {
+    align-content: center;
+}
