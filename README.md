@@ -57,6 +57,9 @@ Agradeço também aos meus colegas, amigos e familiares que fizeram e fazem part
 
 Ficou interessado no meu projeto ou tem alguma dúvida? Entre em contato comigo pelas minhas redes sociais, que deixei disponíveis no próprio portfólio. 
 
-link para acesso: Projeto em manutenção 🔧
+link para acesso: 
+
+https://antoniolopes21.github.io/Meu_Portfolio/
+Projeto em manutenção 🔧 Ainda continuo trabalhando no projeto até então...
 
 "SEE YA TOMORROW!" 🚀

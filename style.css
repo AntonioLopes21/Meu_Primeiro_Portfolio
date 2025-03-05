@@ -108,6 +108,15 @@ span {
     padding-bottom: 5%;
 }
 
+/* .itens-direita-imagem:disabled {
+    transition: opacity 2.5s ease-in-out;
+}
+
+.itens-direita-imagem:hover {
+    opacity: 100%;
+    content: url("img/meu_avatar.png");
+} */
+
 .conteudo-adicional {
     width: 100%;
     display: flex;
@@ -134,4 +143,30 @@ span {
     text-align: center;
     color: #F6F6F6;
     display: block; 
+}
+
+#curriculo_para_download {
+    border-radius: 2px solid #22D4FD;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.curriculo_para_download_btn {
+    background-color: #22D4FD;
+    transition: .5s;
+    border-radius: 216px;
+    width: 20%;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.curriculo_para_download_btn:hover {
+    background-color: #22d5fd9c;
 }
