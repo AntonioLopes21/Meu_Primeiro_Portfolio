@@ -8,6 +8,8 @@ header {
 }
 
 body {
+    box-sizing: border-box; /*encolhe o conteúdo para sempre estar pertencendo ao elemento pai*/
+    height: 100vh; /*altura completa do viewport*/
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -41,7 +43,11 @@ ul, li, ol {
 a {
     text-decoration: none;
     color: black;
-    
+    transition: .5s;
+}
+
+a:hover {
+    background-color: #22D4FD;
 }
 
 strong {
