@@ -55,6 +55,8 @@ Agradeço também aos meus colegas, amigos e familiares que fizeram e fazem part
 
 #Quer falar comigo? 📬
 
-Ficou interessado no meu projeto ou tem alguma dúvida? Entre em contato comigo pelas minhas redes sociais, que deixei disponíveis no link abaixo!
+Ficou interessado no meu projeto ou tem alguma dúvida? Entre em contato comigo pelas minhas redes sociais, que deixei disponíveis no próprio portfólio. 
+
+link para acesso: Projeto em manutenção 🔧
 
 "SEE YA TOMORROW!" 🚀
