@@ -47,6 +47,12 @@ Aqui você pode conferir as versões mais recentes do meu portfólio:
 
 ![alt text](img_Project_att/image-5.png)
 
+##🔹 Modelo mais atual: 06/03/25
+
+att: coloquei ícone que irá baixar meu currículo para todos os interessados.
+![alt text](img_Project_att/attCurriculo.png)
+
+
 Agradecimentos 🙌
 
 Quero deixar um agradecimento especial à Alura e à Oracle pelo programa ONE, que abriu meus olhos e me mostrou, na prática, a importância de um bom README e como desenvolver projetos com qualidade.
