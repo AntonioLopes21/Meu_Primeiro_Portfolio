@@ -11,14 +11,14 @@ image_profile.addEventListener("mouseout", event => {
     // console.log("mouse fora da imagem")
 })
 
-function baixarCurriculo(){
-    let link = document.createElement('link_para_download')
-    link.href = my_curriculum;
-    link.download = "Curriculo_Antonio"
+// function baixarCurriculo(){
+//     let link = document.createElement("a")
+//     link.href = my_curriculum;
+//     link.download = "Curriculo_Antonio"
 
-    link.click()
-    console.log("clicando")
-}
+//     link.click()
+//     console.log("clicando")
+// }
 // fetch('documents/Curriculo_antonio.pdf')
 //     .then(function(data) {
 //         return data.blob();
