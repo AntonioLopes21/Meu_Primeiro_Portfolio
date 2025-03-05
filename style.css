@@ -8,6 +8,8 @@ header {
 }
 
 body {
+    overflow-x: hidden;
+
     box-sizing: border-box; /*encolhe o conteúdo para sempre estar pertencendo ao elemento pai*/
     height: 100vh; /*altura completa do viewport*/
     display: flex;
