@@ -35,7 +35,8 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    width: 80%;
+    width: 100%;
+    padding: 5%;
     gap: 15px;
     color: #F6F6F6;
     letter-spacing: 0.6px;
@@ -123,7 +124,7 @@ span {
 
 .btn-linkedin:hover {
     background-image: url('img/linkedin_icon.png');
-    background-color: #22D4FD;
+    background-color: #272727;
     background-position: 180px 10px;
     background-repeat: no-repeat;
     background-size: 35px, 35px;
@@ -132,7 +133,7 @@ span {
 
 .btn-github:hover {
     background-image: url('img/github_icon.png');
-    background-color: #22D4FD;
+    background-color: #272727;
     background-position: 180px 10px;
     background-repeat: no-repeat;
     background-size: 50px, 50px;
