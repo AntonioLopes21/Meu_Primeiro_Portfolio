@@ -65,6 +65,11 @@ span {
     background-color: #f6f6f6;
 }
 
+.links {
+    color: #22D4FD;
+    text-decoration: underline;
+}
+
 /* ANIMAÇÃO TITULO PRINCIPAL */
 .animacao-texto {
     padding: 5px;
@@ -204,6 +209,7 @@ span {
 }
 
 .amiga-proa {
+    text-decoration: underline;
     color: #ff0000;
 }
 
