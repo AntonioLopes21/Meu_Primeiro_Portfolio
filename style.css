@@ -55,10 +55,6 @@ a {
     transition: .5s;
 }
 
-a:hover {
-    background-color: #47a7bd;
-}
-
 strong {
     color: #22D4FD;
 }
@@ -81,24 +77,6 @@ span {
     background-color: black;
 } 
 
-.btn {
-    background-color: #22D4FD;
-    border-radius: 216px;
-    width: 90%;
-    height: 3rem;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    font-weight: 800;
-}
-
-.botoes {
-    width: 90%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
-}
 .itens-esquerda {
     display: flex;
     flex-direction: column;
@@ -117,14 +95,46 @@ span {
     padding-bottom: 5%;
 }
 
-/* .itens-direita-imagem:disabled {
-    transition: opacity 2.5s ease-in-out;
+/* classe de botoes */
+.botoes {
+    width: 90%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
 }
 
-.itens-direita-imagem:hover {
-    opacity: 100%;
-    content: url("img/meu_avatar.png");
-} */
+.btn-linkedin, .btn-github {
+    /* background-color: #22D4FD; */
+    border-radius: 216px;
+    width: 90%;
+    height: 3rem;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-weight: 800;
+    color: #f6f6f6;
+    border: 2px solid #22D4FD;
+}
+
+.btn-linkedin:hover {
+    background-image: url('img/linkedin_icon.png');
+    background-color: #22D4FD;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 35px, 35px;
+    color: black;
+}
+
+.btn-github:hover {
+    background-image: url('img/github_icon.png');
+    background-color: #22D4FD;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 50px, 50px;
+    color: black;
+
+}
 
 .conteudo-adicional {
     width: 100%;
@@ -132,12 +142,60 @@ span {
     flex-direction: column;
     border: 2px solid #22D4FD;
     margin-top: 25px;
+    gap: 4rem;
+    scroll-behavior: smooth;
 }
 
 .titulo-conteudo-adicional {
     text-align: center;
 }
 
+.conteudo-adicional-primeiros-contatos, .conteudo-adicional-primeiros-contatos-carrossel {
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+    gap: 5%;
+}
+
+.conteudo-adicional-coluna-carrossel {
+    display: flex;
+    padding: 3%;
+    gap: 20px;
+}
+
+.conteudo-adicional-direita-carrossel{
+    max-width: 45%;
+}
+
+.conteudo-adicional-primeiros-contatos-carrossel {
+    overflow: hidden;
+    max-width: 100%;
+    width: 50%;
+}
+
+.conteudo-adicional-esquerda-carrossel-container {
+    display: flex;
+    width: calc(700px * 4); /* Multiplica pelo número total de imagens */
+    transition: transform 0.5s ease-in-out;
+    gap: 10px;
+}
+
+.conteudo-adicional-esquerda-carrossel-container img{
+    filter: drop-shadow(0px 0px 10px #0b08f3);
+    width: 700px;
+    height: auto;
+}
+
+.amiga-proa {
+    color: #ff0000;
+}
+
+.amiga-proa:hover {
+    border: 2px solid #22D4FD;
+    background-color: #22D4FD;
+    color: black;
+}
+/*
 .certificacoes {
     width: 50%;
     margin: 40px auto;
@@ -152,12 +210,11 @@ span {
     text-align: center;
     color: #F6F6F6;
     display: block; 
-}
+} */
 
 #curriculo_para_download {
-    border-radius: 2px solid #22D4FD;
+    border: 2px solid #22D4FD;
     width: 100%;
-    margin-top: 5%;
     display: flex;
     flex-direction: column;
     gap: 25%;

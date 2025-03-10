@@ -10,3 +10,5 @@ image_profile.addEventListener("mouseout", event => {
     image_profile.src = "img/minha_imagem.png";
     // console.log("mouse fora da imagem")
 })
+
+
