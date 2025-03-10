@@ -124,7 +124,7 @@ span {
 .btn-linkedin:hover {
     background-image: url('img/linkedin_icon.png');
     background-color: #22D4FD;
-    background-position: 10px 10px;
+    background-position: 180px 10px;
     background-repeat: no-repeat;
     background-size: 35px, 35px;
     color: black;
@@ -133,7 +133,7 @@ span {
 .btn-github:hover {
     background-image: url('img/github_icon.png');
     background-color: #22D4FD;
-    background-position: 10px 10px;
+    background-position: 180px 10px;
     background-repeat: no-repeat;
     background-size: 50px, 50px;
     color: black;
