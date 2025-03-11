@@ -1,5 +1,5 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
 
@@ -10,12 +10,14 @@ header {
 body {
     overflow-x: hidden;
 
-    box-sizing: border-box; /*encolhe o conteúdo para sempre estar pertencendo ao elemento pai*/
-    height: 100vh; /*altura completa do viewport*/
+    box-sizing: border-box;
+    /*encolhe o conteúdo para sempre estar pertencendo ao elemento pai*/
+    height: 100vh;
+    /*altura completa do viewport*/
     display: flex;
     flex-direction: column;
     margin: 0;
-    align-items: center; 
+    align-items: center;
     background-color: rgb(0, 0, 0);
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -34,7 +36,7 @@ footer {
 main {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     width: 100%;
     padding: 5%;
     gap: 15px;
@@ -43,7 +45,9 @@ main {
     font-size: 18px;
 }
 
-ul, li, ol {
+ul,
+li,
+ol {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -106,20 +110,22 @@ span {
 .animacao-texto:hover {
     color: #F6F6F6;
     background-color: black;
-} 
+}
 
 .itens-esquerda {
     display: flex;
     flex-direction: column;
     gap: 2px;
     width: 50%;
-    align-items: flex-start; 
+    align-items: flex-start;
     padding-top: 2%;
     justify-content: center;
     text-align: center;
     font-size: 20px;
 
 }
+
+.itens-direita-imagem-real {}
 
 .itens-direita {
     display: flex;
@@ -139,7 +145,8 @@ span {
     gap: 10%;
 }
 
-.btn-linkedin, .btn-github {
+.btn-linkedin,
+.btn-github {
     /* background-color: #22D4FD; */
     border-radius: 216px;
     width: 90%;
@@ -172,10 +179,11 @@ span {
 }
 
 @keyframes appear {
-    from{
+    from {
         opacity: 0;
         scale: 0.5;
     }
+
     to {
         opacity: 1;
         scale: 1;
@@ -185,8 +193,7 @@ span {
 .bloco {
     animation: appear 5s linear;
     animation-timeline: view();
-    animation-range: entry 30%
-    cover 40%;
+    animation-range: entry 30% cover 40%;
 }
 
 .conteudo-adicional {
@@ -202,7 +209,8 @@ span {
     text-align: center;
 }
 
-.conteudo-adicional-primeiros-contatos, .conteudo-adicional-primeiros-contatos-carrossel {
+.conteudo-adicional-primeiros-contatos,
+.conteudo-adicional-primeiros-contatos-carrossel {
     display: flex;
     flex-direction: row;
     padding: 4%;
@@ -215,7 +223,7 @@ span {
     gap: 20px;
 }
 
-.conteudo-adicional-direita-carrossel{
+.conteudo-adicional-direita-carrossel {
     max-width: 45%;
 }
 
@@ -227,12 +235,13 @@ span {
 
 .conteudo-adicional-esquerda-carrossel-container {
     display: flex;
-    width: calc(700px * 4); /* Multiplica pelo número total de imagens */
+    width: calc(700px * 4);
+    /* Multiplica pelo número total de imagens */
     transition: transform 0.5s ease-in-out;
     gap: 10px;
 }
 
-.conteudo-adicional-esquerda-carrossel-container img{
+.conteudo-adicional-esquerda-carrossel-container img {
     filter: drop-shadow(0px 0px 10px #0b08f3);
     width: 700px;
     height: auto;
@@ -243,6 +252,7 @@ span {
     background-color: #22D4FD;
     color: black;
 }
+
 /*
 .certificacoes {
     width: 50%;
