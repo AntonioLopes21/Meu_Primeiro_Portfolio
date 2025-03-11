@@ -125,7 +125,11 @@ span {
 
 }
 
-.itens-direita-imagem-real {}
+/* atualizar  */
+.itens-direita-imagem-real {
+    filter: drop-shadow(0px 0px 10px #0b08f3);
+
+}
 
 .itens-direita {
     display: flex;
