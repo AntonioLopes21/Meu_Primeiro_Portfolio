@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -84,6 +84,10 @@ span {
     border: 2px solid #22D4FD;
     color: black;
     background-color: #f6f6f6;
+}
+
+.paragrafo {
+    font-family: 'Krona One', sans-serif;
 }
 
 .cabecalho {
