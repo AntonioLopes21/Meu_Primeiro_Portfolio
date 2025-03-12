@@ -7,7 +7,7 @@ html {
 }
 
 :root {
-    --cor-primaria: black;
+    --cor-primaria: rgb(5, 4, 4);
     --cor-secundaria: #22D4FD;
     --cor-terciaria: #F6F6F6;
     --font-family: 'Montserrat', sans-serif;
@@ -127,6 +127,7 @@ span {
     font-size: var(--font-size-heading);
     font-weight: var(--font-weight-bold);
     padding-top: 10%;
+    white-space: nowrap;
 }
 
 /* ANIMAÇÃO TITULO PRINCIPAL */
@@ -258,6 +259,7 @@ span {
 
 .bloco {
     animation: appear 5s linear;
+    animation-timeline: view();
 }
 
 .conteudo-adicional {
@@ -347,6 +349,7 @@ span {
     .conteudo-adicional-coluna-carrossel {
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     #conteudo-adicional-primeiros-contatos-segunda-coluna,
