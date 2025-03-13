@@ -4,6 +4,7 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
+    overflow-x: hidden;
 }
 
 :root {
@@ -53,7 +54,6 @@ header {
 }
 
 footer {
-    border: 2px solid var(--cor-secundaria);
     width: 100%;
     text-align: center;
     padding: 1rem;
@@ -288,12 +288,11 @@ span {
 
 .conteudo-adicional-coluna-carrossel {
     display: flex;
-    padding: 3%;
     gap: 2rem;
 }
 
 .conteudo-adicional-direita-carrossel {
-    max-width: 45%;
+    max-width: 100%;
 }
 
 .conteudo-adicional-primeiros-contatos-carrossel {
@@ -305,7 +304,6 @@ span {
     display: flex;
     width: calc(700px * 4);
     transition: transform 0.5s ease-in-out;
-    gap: 1rem;
 }
 
 .conteudo-adicional-esquerda-carrossel-container {
@@ -313,13 +311,13 @@ span {
 }
 
 #curriculo_para_download {
-    border: 2px solid var(--cor-secundaria);
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
     align-items: center;
     padding-bottom: 5%;
+    text-align: center;
 }
 
 .btn_curriculo_para_download {
@@ -346,9 +344,12 @@ span {
         text-align: left;
     }
 
-    .conteudo-adicional-primeiros-contatos,
-    .conteudo-adicional-coluna-carrossel {
+    .conteudo-adicional-primeiros-contatos {
         flex-direction: column;
+    }
+
+    .conteudo-adicional-coluna-carrossel {
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
@@ -359,6 +360,13 @@ span {
     }
 }
 
+@media (max-width: 1156px) {
+    main {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
 @media (max-width: 980px) {
     main {
         flex-direction: column-reverse;
@@ -366,13 +374,19 @@ span {
     }
 }
 
-@media (min-width: 400px) and (max-width: 750px) {
+@media (min-width: 300px) and (max-width: 750px) {
     .cabecalho {
         width: 100%;
         height: auto;
         justify-content: space-between;
         padding-left: 17%;
         padding-right: 17%;
+        margin: 0;
+        position: fixed;
+    }
+
+    nav {
+        margin: 0;
     }
 
     .titulo-principal {
@@ -408,10 +422,33 @@ span {
         align-content: center;
     }
 
+    .bloco {
+        width: 100%; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-adicional-primeiros-contatos, .conteudo-adicional-coluna-carrossel {
+        font-weight: 700;
+        font-size: 21px;
+        text-align: center;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .conteudo-adicional-imagens {
+        width: 400px;
+    }
+
     .conteudo-adicional-coluna-carrossel {
        display: flex;
        flex-direction: column-reverse;  
-        width: 100%;
+    }
+
+    #curriculo_para_download {
+        font-size: 20px;
+        font-weight: 200;
+        text-align: center;
     }
 
 }
