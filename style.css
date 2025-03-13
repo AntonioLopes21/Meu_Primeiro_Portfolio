@@ -386,14 +386,19 @@ span {
         width: 100%;
         height: auto;
         justify-content: space-between;
-        padding-left: 17%;
-        padding-right: 17%;
+        padding-left: 32%;
+        padding-right: 32%;
         margin: 0;
         position: fixed;
     }
 
     nav {
         margin: 0;
+    }
+
+    .imagem-filtro {
+        width: 35%;
+       
     }
 
     .titulo-principal {
