@@ -11,4 +11,21 @@ image_profile.addEventListener("mouseout", event => {
     // console.log("mouse fora da imagem")
 })
 
+let imagemFiltro = document.querySelector('.imagem-filtro')
 
+
+let alterarTema = false;
+imagemFiltro.addEventListener('click', function() {
+    if(alterarTema) {
+        imagemFiltro.src = "img/filtro-lua.png"
+    } else {
+        imagemFiltro.src = "img/filtro-sol.png"
+    }
+
+    alterarTema = !alterarTema
+})
+
+function alterarFiltro() {
+    
+    imagemFiltro.src = "img/filtro-sol.png";
+}

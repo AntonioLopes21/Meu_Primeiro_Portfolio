@@ -95,12 +95,14 @@ strong {
 span {
     border: 2px solid var(--cor-secundaria);
     color: var(--cor-primaria);
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-teciaria);
 }
 
 .cabecalho {
     max-width: 100%;
     padding: 2% ;
+    background-color: #272727;
+    margin: 0;
 }
 
 .cabecalho-menu {
@@ -124,11 +126,7 @@ span {
 }
 
 .imagem-filtro {
-    position: fixed;
-    width: 5%;
-    z-index: 1;
-    top: 10%;
-    left: 95%;
+    width: 10%;
 }
 
 .titulo-principal {
