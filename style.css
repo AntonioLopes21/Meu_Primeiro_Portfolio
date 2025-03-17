@@ -57,7 +57,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 1rem;
-    background-color: var(--cor-secundaria);
+    background-color: #272727;
 }
 
 main {
@@ -268,6 +268,7 @@ span {
 .bloco {
     animation: appear 5s linear;
     animation-timeline: view();
+    animation-range: entry 30%;
 }
 
 .conteudo-adicional {
