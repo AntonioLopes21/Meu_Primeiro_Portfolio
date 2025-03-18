@@ -455,10 +455,19 @@ span {
 
     .conteudo-adicional-primeiros-contatos, .conteudo-adicional-coluna-carrossel {
         font-weight: 700;
-        font-size: 21px;
+        font-size: 15px;
         text-align: center;
         display: flex;
         gap: 1rem;
+
+        p {
+            font-weight: 200;
+        }
+
+        h2 {
+            font-weight: 400;
+            font-size: 20px;
+        }
     }
 
     .conteudo-adicional-imagens {
