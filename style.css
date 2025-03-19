@@ -102,7 +102,7 @@ span {
 
 .cabecalho {
     max-width: 100%;
-    padding: 2% ;
+    padding: 2%;
     background-color: #272727;
     margin: 0;
 }
@@ -212,7 +212,8 @@ span {
     filter: drop-shadow(0px 0px 0.625rem var(--cor-terciaria));
 }
 
-.conteudo-adicional-esquerda, .conteudo-adicional-direita {
+.conteudo-adicional-esquerda,
+.conteudo-adicional-direita {
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -415,7 +416,7 @@ span {
 
     .imagem-filtro {
         width: 35%;
-       
+
     }
 
     .titulo-principal {
@@ -423,7 +424,8 @@ span {
         padding-top: 25%;
     }
 
-    .itens-esquerda-nome, .itens-esquerda-funcao {
+    .itens-esquerda-nome,
+    .itens-esquerda-funcao {
         font-size: 20px;
     }
 
@@ -439,10 +441,11 @@ span {
         display: flex;
         flex-direction: column;
         gap: 25px;
-        
+
     }
 
-    .btn-linkedin, .btn-github {
+    .btn-linkedin,
+    .btn-github {
         padding: 5% 5% 5% 5%;
         justify-content: center;
         text-align: center;
@@ -452,12 +455,13 @@ span {
     }
 
     .bloco {
-        width: 100%; 
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
 
-    .conteudo-adicional-primeiros-contatos, .conteudo-adicional-coluna-carrossel {
+    .conteudo-adicional-primeiros-contatos,
+    .conteudo-adicional-coluna-carrossel {
         font-weight: 700;
         font-size: 15px;
         text-align: left;
@@ -480,8 +484,12 @@ span {
     }
 
     .conteudo-adicional-coluna-carrossel {
-       display: flex;
-       flex-direction: column-reverse;  
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .btn_curriculo_para_download {
+        width: 13rem;
     }
 
     #curriculo_para_download {
