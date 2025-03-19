@@ -37,6 +37,9 @@ imagemFiltro.addEventListener('click', function () {
         document.querySelector('body').style.color = "#F6F6F6";
         document.querySelector('footer').style.backgroundColor = "#272727";
 
+        document.querySelector('.btn_curriculo_para_download').style.backgroundColor = ""
+        document.querySelector('.btn_curriculo_para_download').style.color = ""
+
     } else {
         imagemFiltro.src = "img/filtro-sol.png"
         
