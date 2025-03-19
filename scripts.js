@@ -20,6 +20,13 @@ imagemFiltro.addEventListener('click', function() {
         imagemFiltro.src = "img/filtro-lua.png"
     } else {
         imagemFiltro.src = "img/filtro-sol.png"
+        document.querySelector('header').style.backgroundColor = "#3E3F5B"
+        document.querySelector('header').style.color = "#8AB2A6"
+        document.querySelector('.btn-linkedin').style.border = "2px solid #3E3F5B"
+        document.querySelector('.btn-github').style.border = "2px solid #3E3F5B"
+        document.querySelector('body').style.backgroundColor = "#F5ECE0"
+        document.querySelector('body').style.color = "black";
+        document.querySelector('footer').style.backgroundColor = "#3E3F5B"
     }
 
     alterarTema = !alterarTema
