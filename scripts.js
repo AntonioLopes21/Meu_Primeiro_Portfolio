@@ -40,6 +40,8 @@ imagemFiltro.addEventListener("click", function () {
 
         // Atualizar eventos de hover no modo escuro
         configurarEventosMouse("img/minha_imagem.png", "img/meu_avatar.png");
+        document.querySelector('.itens-direita-imagem-real').style.filter = ""
+
 
     } else {
         imagemFiltro.src = "img/filtro-sol.png";
@@ -62,5 +64,6 @@ imagemFiltro.addEventListener("click", function () {
 
         // Atualizar eventos de hover no modo claro
         configurarEventosMouse("img/minha_imagem_tema_claro.png", "img/meu_avatar_tema_claro.png");
+        document.querySelector('.itens-direita-imagem-real').style.filter = "drop-shadow(0px 0px 0.625rem #3E3F5B)"
     }
 });
