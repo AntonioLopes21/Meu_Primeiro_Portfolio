@@ -33,10 +33,10 @@ html {
 }
 
 body {
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     background-color: var(--cor-primaria);
     font-family: var(--font-family);
@@ -65,16 +65,16 @@ footer {
     align-items: center;
     text-align: center;
     background-color: #272727;
-    position: relative; 
-    bottom: 0; 
-    left: 0; 
+    position: relative;
+    bottom: 0;
+    left: 0;
     margin-top: auto;
-    clear: both;  
+    clear: both;
     overflow-x: hidden;
 }
 
 main {
-    flex: 1; 
+    flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -142,6 +142,7 @@ span {
 
 .imagem-filtro {
     width: 10%;
+    cursor: pointer;
 }
 
 .titulo-principal {
@@ -230,6 +231,7 @@ span {
     justify-content: center;
     align-items: center;
     align-content: center;
+    align-self: center;
 }
 
 .itens-direita {
@@ -262,25 +264,20 @@ span {
 }
 
 .btn-linkedin:hover {
-    background-color: #272727;
-    background-position: 15%;
-    background-repeat: no-repeat;
-    background-size: 2rem;
-}
-
-.btn-github:hover {
+    background-image: url('img/linkedin_icon.png');
     background-color: #272727;
     background-position: 15%;
     background-repeat: no-repeat;
     background-size: 2.5rem;
 }
 
-.bloco {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0;
+.btn-github:hover {
+    background-image: url('img/github_icon.png');
+    background-color: #272727;
+    background-position: 15%;
+    background-repeat: no-repeat;
+    background-size: 3.5rem;
 }
-
 
 @keyframes appear {
     from {
@@ -294,6 +291,12 @@ span {
     }
 }
 
+.bloco {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+
 .conteudo-adicional {
     width: 100%;
     display: flex;
@@ -303,6 +306,8 @@ span {
     font-family: var(--font-family);
     font-weight: var(--font-weight-light);
     text-align: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-conteudo-adicional {
@@ -310,8 +315,8 @@ span {
 }
 
 .conteudo-adicional-imagens {
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 450px;
 }
 
 .conteudo-adicional-primeiros-contatos,
@@ -320,6 +325,16 @@ span {
     flex-direction: row;
     padding: 4%;
     gap: 5%;
+}
+
+.conteudo-adicional-coluna-carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-adicional-direita-carrossel {
+    padding: 8%;
 }
 
 .conteudo-adicional-coluna-carrossel {
@@ -345,6 +360,29 @@ span {
 .conteudo-adicional-esquerda-carrossel-container {
     filter: drop-shadow(0px 0px 0.625rem #0b08f3);
 }
+
+/*seção de projetos */
+.projetos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+
+.naveguard-logo {
+    color: #F6F6F6;
+    background-color: #22D4FD;
+    border: 2px solid #22D4FD;
+    border-radius: 3%;
+}
+
+.projeto-1 {
+    padding: 5%;
+    gap: 4rem;
+    display: flex;
+}
+
+
 
 #curriculo_para_download {
     width: 100%;
@@ -380,6 +418,17 @@ span {
     body {
         padding: 5%;
         text-align: left;
+    }
+
+    .conteudo-adicional {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .conteudo-adicional img {
+        justify-content: center;
+        align-items: center;
     }
 
     .conteudo-adicional-primeiros-contatos {
@@ -429,7 +478,7 @@ span {
 
     .imagem-filtro {
         width: 35%;
-
+        transition: .5s;
     }
 
     .titulo-principal {
@@ -519,11 +568,11 @@ span {
         align-items: center;
         text-align: center;
         background-color: #272727;
-        position: relative; 
-        bottom: 0; 
-        left: 0; 
+        position: relative;
+        bottom: 0;
+        left: 0;
         margin-top: auto;
-        clear: both;  
+        clear: both;
     }
 
 }
