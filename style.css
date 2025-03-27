@@ -380,9 +380,26 @@ span {
     padding: 5%;
     gap: 4rem;
     display: flex;
+    flex-direction: column;
 }
 
+.projeto-1-direita {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
 
+.projeto-1-direita-link {
+    color:#22D4FD;
+    transition: .5s;
+}
+
+.projeto-1-direita-link:hover {
+    background-color: #22D4FD;
+    color: #F6F6F6;
+    border-radius: 3%;
+}
 
 #curriculo_para_download {
     width: 100%;
