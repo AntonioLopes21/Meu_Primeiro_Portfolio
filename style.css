@@ -365,8 +365,11 @@ span {
 .projetos {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    padding: 5%;
+    align-items: center;
+}
+
+.projeto-1-naveguard-logo {
+    width: 700px;
 }
 
 .naveguard-logo {
@@ -381,17 +384,19 @@ span {
     gap: 4rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 .projeto-1-direita {
-    width: 60%;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    text-align: center;
     align-self: center;
+    align-items: center;
 }
 
 .projeto-1-direita-link {
-    color:#22D4FD;
+    color: #22D4FD;
     transition: .5s;
 }
 
@@ -425,6 +430,26 @@ span {
 
 .btn_curriculo_para_download:hover {
     background-color: #47a7bd;
+}
+
+/* resolução que não funcionará */
+.mensagem-resolucao {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    
+}
+
+@media (max-width:380) {
+    .mensagem-resolucao {
+        display: block;
+        color: red;
+        justify-content: center;
+        
+    }
+
+    body *:not(.mensagem-resolucao) {
+        display: none;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -565,6 +590,12 @@ span {
     .conteudo-adicional-coluna-carrossel {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .projeto-1-direita {}
+
+    .projeto-1-naveguard-logo {
+        width: 90%;
     }
 
     .btn_curriculo_para_download {
