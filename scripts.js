@@ -20,8 +20,6 @@ imagemFiltro.addEventListener("click", function () {
     alterarTema = !alterarTema;
 
     if (alterarTema) {
-        imagemFiltro.src = "img/filtro-lua.png";
-        image_profile.src = "img/minha_imagem.png";
 
         document.querySelectorAll(".links").forEach((link) => link.style.color = "");
         document.querySelectorAll(".destaques").forEach((destaque) => destaque.style.color = "");
@@ -38,14 +36,14 @@ imagemFiltro.addEventListener("click", function () {
         document.querySelector(".btn_curriculo_para_download").style.backgroundColor = "";
         document.querySelector(".btn_curriculo_para_download").style.color = "";
 
-        // Atualizar eventos de hover no modo escuro
+        imagemFiltro.src = "img/filtro-lua.png";
+        image_profile.src = "img/minha_imagem.png";
+        // Atualiza eventos de hover no modo escuro
         configurarEventosMouse("img/minha_imagem.png", "img/meu_avatar.png");
         document.querySelector('.itens-direita-imagem-real').style.filter = ""
 
 
     } else {
-        imagemFiltro.src = "img/filtro-sol.png";
-        image_profile.src = "img/minha_imagem_tema_claro.png";
 
         document.querySelectorAll(".links").forEach((link) => link.style.color = "rgb(61, 66, 206)");
         document.querySelectorAll(".destaques").forEach((destaque) => destaque.style.color = "rgb(173, 10, 46)");
@@ -62,7 +60,9 @@ imagemFiltro.addEventListener("click", function () {
         document.querySelector(".btn_curriculo_para_download").style.backgroundColor = "#3E3F5B";
         document.querySelector(".btn_curriculo_para_download").style.color = "#F6F6F6";
 
-        // Atualizar eventos de hover no modo claro
+        imagemFiltro.src = "img/filtro-sol.png";
+        image_profile.src = "img/minha_imagem_tema_claro.png";
+        // Atualiza eventos de hover no modo claro
         configurarEventosMouse("img/minha_imagem_tema_claro.png", "img/meu_avatar_tema_claro.png");
         document.querySelector('.itens-direita-imagem-real').style.filter = "drop-shadow(0px 0px 0.625rem #3E3F5B)"
     }
