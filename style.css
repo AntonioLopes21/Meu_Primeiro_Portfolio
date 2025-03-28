@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 html {
-    scroll-behavior: smooth;
-    height: 100%;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -33,6 +32,8 @@ html {
 }
 
 body {
+    scroll-behavior: smooth;
+    height: 100vh;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -58,19 +59,10 @@ header {
 }
 
 footer {
-    width: 100%;
-    text-align: center;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #272727;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    margin-top: auto;
-    clear: both;
-    overflow-x: hidden;
+   width: 100%;
+   padding: 3%;
+   text-align: center;
+   min-width: 100vh;
 }
 
 main {
@@ -85,6 +77,7 @@ main {
     color: var(--cor-terciaria);
     letter-spacing: 0.6px;
     font-size: var(--font-size-medium);
+    flex-grow: 1;
 }
 
 
@@ -487,6 +480,11 @@ span {
     #conteudo-adicional-primeiros-contatos-quarta-coluna {
         flex-direction: column-reverse;
     }
+
+    footer {
+        width: 100%;
+        min-width: 100vh;
+    }
 }
 
 @media (max-width: 1156px) {
@@ -609,7 +607,6 @@ span {
     }
 
     footer {
-        width: 100%;
         text-align: center;
         padding: 1rem;
         justify-content: center;
